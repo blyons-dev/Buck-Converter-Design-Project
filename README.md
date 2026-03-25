@@ -33,6 +33,7 @@ The system consists of three main components:
 ### Installation
 1. Download KiCAD from the official website.
 2. Follow the installation instructions for your operating system.
+3. Download and Install the Git plugin for KiCad through the Plugin and Content Manager.
 ### Configuration
 1. Open KiCAD and open the project you'd like to use to work on the repo.
 2. Initialize git in the local folder you're using and connect to GitHub.
