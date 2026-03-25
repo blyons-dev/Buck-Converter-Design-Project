@@ -645,7 +645,7 @@
       {
         "filename": "Buck Converter.kicad_sch",
         "name": "Buck Converter",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "2eb3209e-0fed-4fa3-9836-ca5af40cb334"
       }
     ],
     "used_designators": "",
@@ -654,7 +654,7 @@
   "sheets": [
     [
       "2eb3209e-0fed-4fa3-9836-ca5af40cb334",
-      "Root"
+      "Buck Converter"
     ]
   ],
   "text_variables": {},
