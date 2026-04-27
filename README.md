@@ -14,10 +14,13 @@ The system consists of three main components:
 - Control System: Arduino Nano generating PWM and adjusting duty cycle
 - Feedback Network: Voltage sensing circuit used for regulation
 ## Schematic Diagram
-<img width="1357" height="479" alt="image" src="https://github.com/user-attachments/assets/27fc647b-5118-4e7c-9048-dc492b65f903" />
+<img width="1124" height="394" alt="image" src="https://github.com/user-attachments/assets/98acdcf3-1300-4fb4-94e9-f021aa12213a" />
 
-## PCB Layout
+## PCB Layout (Mimics layout of perfboard)
 <img width="1124" height="775" alt="image" src="https://github.com/user-attachments/assets/e8221ad3-e77f-4df6-a713-5c34ee16b166" />
+
+## Circuit Prototype
+
 
 ## How It Works
 1. The Arduino Nano generates a PWM signal.
@@ -29,32 +32,3 @@ The system consists of three main components:
 - Embedded control systems
 - Educational demonstrations of DC-DC conversion
 - Development of control algorithms for power electronics
-## KiCad Setup
-### Installation
-1. Download KiCAD from the official website.
-2. Follow the installation instructions for your operating system.
-3. Download and Install the Git plugin for KiCad through the Plugin and Content Manager.
-### Configuration
-1. Open KiCAD and open the project you'd like to use to work on the repo.
-2. Initialize git in the local folder you're using and connect to GitHub.
-```bash
-git init
-git remote add origin https://github.com/blyons-dev/BLDC-Drone.git
-```
-3. Switch to the current branch (replace current-branch with the branch name).
-```bash
-git fetch origin
-git checkout -b current-branch origin/current-branch
-```
-4. Configure git to track the right branch.
-```bash
-git branch --set-upstream-to=origin/current-branch current-branch
-```
-4a. Optional. Verify you're on the right branch.
-```bash
-git branch -v
-```
-5. The plugin in KiCad can only be accessed in the Layout Editor, so navigate there. The plugin will automatically detect any Unstaged Changes that you have made, you just need to verify that by clicking **Rescan**.
-6. Click the **Stage Changed** button to prepare everything for a commit
-7. Write in the Commit Message a description of what you changed and click the **Sign Off** button as well.
-8. Click **Commit** and then **Push** to send everything to the online repo.
