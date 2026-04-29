@@ -14,7 +14,7 @@ The system consists of three main components:
 - Control System: Arduino Nano generating PWM and adjusting duty cycle
 - Feedback Network: Voltage sensing circuit used for regulation
 ## Schematic Diagram
-<img width="1124" height="394" alt="image" src="https://github.com/user-attachments/assets/98acdcf3-1300-4fb4-94e9-f021aa12213a" />
+<img width="1326" height="485" alt="image" src="https://github.com/user-attachments/assets/d6563cd4-98d6-40e4-b99b-45cc8a7f4188" />
 
 ## PCB Layout (Mimics layout of perfboard)
 <img width="1124" height="775" alt="image" src="https://github.com/user-attachments/assets/e8221ad3-e77f-4df6-a713-5c34ee16b166" />
